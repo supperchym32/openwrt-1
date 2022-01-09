@@ -1,7 +1,0 @@
-#!/bin/sh /etc/rc.common
-
-START=99
-
-start() {
-iw phy phy1 set txq memory_limit 8388608
-}
