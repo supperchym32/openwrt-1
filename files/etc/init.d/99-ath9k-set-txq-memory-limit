@@ -5,7 +5,3 @@ START=99
 start() {
 	iw phy phy1 set txq memory_limit 8388608
 }
-EOF
-chmod +x "${INIT_D_ATH9K_SET_TXQ_FULLFN}"
-${INIT_D_ATH9K_SET_TXQ_FULLFN} enable
-${INIT_D_ATH9K_SET_TXQ_FULLFN} start
